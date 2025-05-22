@@ -1,0 +1,94 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+title {
+    font-family: "Zain", sans-serif;
+    font-size: 20px;
+}
+
+body {
+    font-family: "Zain", sans-serif;
+    font-size: 18px;
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding: 20px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center;
+    min-height: 100vh; 
+}
+
+footer {
+    margin-top: 30px; 
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px; /* Increased padding for better spacing */
+    width: 90%; 
+    max-width: 600px; /* Adjusted max-width for a more centered feel */
+}
+
+.form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    border: 1px solid #304269;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+    padding: 10px; /* Added padding for better input appearance */
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.4); /* More visible focus effect */
+}
+
+.btn-primary {
+    background-color: #304269;
+    border: 1px solid #ff6a00; /* Changed border to solid */
+    color: #ffffff;
+    padding: 12px 25px; /* Increased padding */
+    border-radius: 4px;
+    transition: background-color 0.3s, border-color 0.3s;
+    margin-top: 10px; /* Increased spacing */
+}
+
+.btn-primary:hover {
+    background-color: #ff6a00;
+    border-color: #304269b6;
+}
+
+.form-text {
+    font-size: 0.9em;
+    color: rgba(48, 66, 105, 0.7); /* More subtle color */
+}
+
+.form-check {
+    margin-top: 10px;
+}
+
+.form-check-input {
+    margin-top: 0.3em;
+}
+
+.form-select {
+    border: 1px solid #304269;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+    padding: 10px; /* Added padding for appearance */
+}
+
+.form-select:focus {
+    border-color: #304269a4;
+    box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.4);
+}
